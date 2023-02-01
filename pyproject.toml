@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "test-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Elise"]
+readme = "README.md"
+packages = [{include = "test_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.13.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
