@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "test-poetry"
+name = "poetry-and-colab"
 version = "0.1.0"
 description = ""
 authors = ["Elise"]
 readme = "README.md"
-packages = [{include = "test_poetry"}]
+packages = [{include = "poetry_and_colab"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
